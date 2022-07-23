@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { useDispatch } from 'react-redux';
 
-import { logIn } from '../app/store';
+import { logIn } from '../features/user/userSlice';
 
 const ButtonWrapper = styled.div`
   margin-top: 10px;

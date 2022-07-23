@@ -28,7 +28,7 @@ const items = [
 
 const App = () => {
   // const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const { isLoggedIn } = useSelector((state) => state.user)
+  const { isLoggedIn } = useSelector((state) => state.user);
 
   return (
     <BrowserRouter>
